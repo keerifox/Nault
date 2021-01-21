@@ -62,7 +62,7 @@ export class WorkPoolService {
         console.log('Using cached work: ' + cached.work);
         return cached.work;
       }
-    } catch(err) {
+    } catch (err) {
       console.log('Error validating cached work. ' + err);
     }
 
